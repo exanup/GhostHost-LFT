@@ -1,4 +1,4 @@
-.main-container {
+.body-wrapper {
   /* background-color: red; */
   width: 100%;
   min-width: 1300px;
@@ -10,7 +10,7 @@
   /* height: 944px; */
 }
 
-.header-wrapper {
+.content-wrapper {
   /* background-color: violet; */
   width: 1200px;
   margin: 0 auto;
@@ -31,4 +31,69 @@
   /* background-color: red; */
   float: right;
   width: auto;
+}
+
+.hero-wrapper {
+  width: 100%;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.members {
+  width: 100%;
+  color: #ffffff;
+  font-family: "Lato";
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 120px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.members .login-container {
+  background-color: #22424b;
+  float: left;
+  width: 50%;
+}
+
+.members .login-container .login-wrapper {
+  float: right;
+  width: 585px;
+}
+
+.members .middle-border-wrapper {
+  /* outline: 1px solid red; */
+  position: relative;
+  float: left;
+  width: 0px;
+}
+
+.members .middle-border-wrapper .middle-border {
+  /* display: none; */
+  background-image: url('../images/login-register-bg-middle.png');
+  position: absolute;
+  left: -15px;
+  top: 0px;
+  width: 30px;
+  height: 120px;
+}
+
+.members .register-container {
+  background-color: #2fac6c;
+  float: left;
+  width: 50%;
+}
+
+.members .register-container .register-wrapper {
+  float: left;
+  width: 585px;
+}
+
+.members a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
 }

@@ -28,7 +28,7 @@
   float: left;
   padding-left: 70px;
   font-family: "Lato Medium";
-  font-size: 0.9975em;
+  font-size: 0.9975rem;
   /* should have been 88 (+2 border bottoms)
    but became 89 to push the border to overlap the parent */
   line-height: 89px;
@@ -48,4 +48,33 @@
 
 .navbar .navbar-menu .navbar-item a:hover {
   border-bottom: 1px solid #5f5f5f;
+}
+
+.hero-wrapper {
+  height: 854px;
+  overflow: hidden;
+}
+
+.hero {
+  /* background-color: aqua; */
+  padding-top: 325px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero .title {
+  /* background-color: red; */
+  font-family: "Myriad Pro";
+  font-size: 4.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hero .content {
+  /* background-color: lime; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-style: italic;
+  line-height: 2.9375rem;
+  padding-top: 6px;
 }
