@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* outline: 1px dotted pink; */
+}
+
+body {
+  font-size: 16px;
+}
+
+.clrfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.outline {
+  outline: 1px solid red;
+}
+
+/*
+input::-ms-clear {
+  display: none;
+} */
