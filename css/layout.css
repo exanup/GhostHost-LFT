@@ -1,0 +1,34 @@
+.main-container {
+  /* background-color: red; */
+  width: 100%;
+  min-width: 1300px;
+}
+
+.main-header {
+  /* background-color: brown; */
+  width: 100%;
+  /* height: 944px; */
+}
+
+.header-wrapper {
+  /* background-color: violet; */
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  /* background-color: aqua; */
+  width: 100%;
+}
+
+.navbar .navbar-brand {
+  /* background-color: turquoise; */
+  float: left;
+  width: auto;
+}
+
+.navbar .navbar-menu {
+  /* background-color: red; */
+  float: right;
+  width: auto;
+}

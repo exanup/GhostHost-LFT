@@ -1,0 +1,50 @@
+.main-header {
+  background-image: url('../images/header-bg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.logo-img-wrapper {
+  float: left;
+  width: 133px;
+  padding-top: 32px;
+}
+
+.logo-img-wrapper .logo-img {
+  display: block;
+  width: 100%;
+}
+
+.navbar {
+  /* Had to give height to allow border overlap */
+  height: 90px;
+  border-bottom: 1px solid #2c2e2f;
+}
+
+.navbar .navbar-menu .navbar-item {
+  /* outline: 1px solid red; */
+  /* background-color: yellow; */
+  float: left;
+  padding-left: 70px;
+  font-family: "Lato Medium";
+  font-size: 0.9975em;
+  /* should have been 88 (+2 border bottoms)
+   but became 89 to push the border to overlap the parent */
+  line-height: 89px;
+  overflow: visible;
+}
+
+.navbar .navbar-menu .navbar-item a {
+  /* background-color: teal; */
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar .navbar-menu .navbar-item.active a {
+  border-bottom: 1px solid #ffffff;
+}
+
+.navbar .navbar-menu .navbar-item a:hover {
+  border-bottom: 1px solid #5f5f5f;
+}
