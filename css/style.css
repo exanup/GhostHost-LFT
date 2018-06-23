@@ -232,14 +232,156 @@
   text-transform: capitalize;
 }
 
+.packages .packages-wrapper {
+  background-color: #ffffff;
+  background-image: url('../images/packages-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 100px;
+}
 
+.packages .packages-wrapper .package {
+  background-color: #ffffff;
+  box-shadow: 0 0 20px -10px #a3a3a3;
+}
 
+.package .header-img-wrapper {
+  /* background-color: lightcyan; */
+  padding-top: 36px;
+}
 
+.package .header-text {
+  line-height: 52px;
+  text-transform: uppercase;
+  font-family: "Lato";
+  font-weight: 800;
+  font-size: 16px;
+  text-align: center;
+  color: #282828;
+}
 
+.package .main-specs {
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  /* height: 284px; */
+  padding-top: 9px;
+  padding-bottom: 7px;
+}
 
+/* lato light, 16px */
+.package .main-specs .main-specs-table {
+  font-family: "Lato";
+  font-size: 1rem;
+  font-weight: 100;
+  color: #b4b4b4;
+  line-height: 38px;
+}
 
+/* lato semibold,16px */
+.package .main-specs .main-specs-table .specs-value {
+  font-weight: 600;
+  text-align: right;
+}
 
+.package .footer-price-container {
+  padding-top: 25px;
+}
 
+.package .footer-price-container .footer-price {
+  /* outline: 1px solid lime; */
+  /* background-color: red; */
+  text-align: center;
+  line-height: 31px;
+  font-family: "Lato";
+}
+
+/* lato heavy, 16.83px */
+.footer-price .dollar {
+  /* background-color: green; */
+  font-weight: 800;
+  font-size: 1.051875rem;
+  vertical-align: super;
+}
+
+/* lato bold, 27.72px */
+.footer-price .price {
+  /* background-color: blue; */
+  font-weight: 700;
+  font-size: 1.7325rem;
+}
+
+/* lato regular, 13px */
+.footer-price .per-mo {
+  /* background-color: yellow; */
+  font-weight: 400;
+  font-size: 0.8125rem;
+}
+
+/* lato bold, 15.97px */
+.package .footer-select {
+  /* background-color: lightgreen; */
+  font-family: "Lato";
+  font-size: 0.998125rem;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 50px;
+  padding-bottom: 17px;
+}
+
+.package.basic {
+  border-top: 5px solid #f9d423;
+}
+
+.package.basic .main-specs .main-specs-table .specs-value {
+  color: #f9d423;
+}
+
+.package.basic .footer-price-container {
+  border-bottom: 3px solid #f9d423;
+}
+
+.package.normal,
+.package.big,
+.package.biggest {
+  margin-left: 60px;
+}
+
+.package.normal {
+  border-top: 5px solid #7f8c8d;
+}
+
+.package.normal .main-specs .main-specs-table .specs-value {
+  color: #7f8c8d;
+}
+
+.package.normal .footer-price-container {
+  border-bottom: 3px solid #7f8c8d;
+}
+
+.package.big {
+  border-top: 5px solid #f85f40;
+}
+
+.package.big .main-specs .main-specs-table .specs-value {
+  color: #f85f40;
+}
+
+.package.big .footer-price-container {
+  border-bottom: 3px solid #f85f40;
+}
+
+.package.biggest {
+  border-top: 5px solid #1abc9c;
+}
+
+.package.biggest .main-specs .main-specs-table .specs-value {
+  color: #1abc9c;
+}
+
+.package.biggest .footer-price-container {
+  border-bottom: 3px solid #1abc9c;
+}
 
 
 
