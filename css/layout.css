@@ -2,6 +2,7 @@
   /* background-color: red; */
   width: 100%;
   min-width: 1300px;
+  padding-bottom: 500px;
 }
 
 .main-header {
@@ -72,4 +73,71 @@
 .members .register-container .register-wrapper {
   float: left;
   width: 585px;
+}
+
+.domain {
+  width: 100%;
+}
+
+.domain-wrapper {
+  width: 889px;
+  margin: 0 auto;
+}
+
+.domain .domain-wrapper .title,
+.domain .domain-wrapper .content,
+.domain .domain-wrapper .search,
+.domain .domain-wrapper .prices {
+  /* outline: 1px solid red; */
+  /* background-color: violet; */
+  width: 100%;
+}
+
+.search .search-form-group {
+  width: 100%;
+}
+
+.search .search-form-group .search-before-text {
+  /* background-color: red; */
+  float: left;
+  width: 70px;
+}
+
+.search .search-form-group .search-input-wrapper {
+  /* background-color: lime; */
+  float: left;
+  width: 732px;
+}
+
+.search .search-form-group .search-after-text {
+  /* background-color: blue; */
+  float: left;
+  width: 47px;
+}
+
+.search .search-form-group .search-after-text-dropdown {
+  /* background-color: tomato; */
+  float: left;
+  width: 38px;
+}
+
+.prices {
+  /* background-color: lightsalmon; */
+  width: 100%;
+}
+
+.prices .prices-table-wrapper {
+  width: 100%;
+}
+
+.prices .prices-table {
+  width: 100%;
+}
+
+.prices .prices-table .prices-row {
+  width: 100%;
+}
+
+.prices .prices-table .prices-row .prices-cell {
+  width: 25%;
 }

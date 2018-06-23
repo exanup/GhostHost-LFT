@@ -1,3 +1,13 @@
+.body-wrapper {
+  background-color: #ffffff;
+  color: #383737;
+}
+
+.body-wrapper a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .main-header {
   background-image: url('../images/header-bg.jpg');
   background-repeat: no-repeat;
@@ -105,3 +115,137 @@
   color: #ffffff;
   text-decoration: none;
 }
+
+.domain .title {
+  padding-top: 75px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.domain .content {
+  line-height: 40px;
+  text-align: center;
+  font-family: "Myriad Pro";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #a2a2a2;
+}
+
+.domain .search {
+  padding-top: 39px;
+}
+
+.domain .search-form-group {
+  line-height: 48px;
+  border: 1px solid #d9d9d9;
+}
+
+.domain .search-form-group .search-before-text {
+  font-family: "Lato";
+  font-size: 16px;
+  text-align: center;
+  color: #cbcbcb;
+}
+
+.domain .search-form-group .search-input-wrapper {
+  background-image: url('../images/input-height-bar.png'), url('../images/input-height-bar.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: center left, center right;
+}
+
+.domain .search-form-group .search-input-wrapper .search-input {
+  /* outline: 1px solid red; */
+  background: none;
+  color: #868686;
+  font-family: "Lato";
+  font-weight: 700;
+  display: block;
+  width: 100%;
+  /* Height needed for IE */
+  height: 48px;
+  line-height: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+}
+
+.domain .search-form-group .search-after-text {
+  font-family: "Lato";
+  font-size: 16px;
+  text-align: right;
+  color: #cbcbcb;
+}
+
+.domain .search-form-group .search-after-text-dropdown {
+  font-family: "Font Awesome 5 Free";
+  font-size: 14px;
+  text-align: center;
+  color: #cbcbcb;
+}
+
+.prices {
+  padding-top: 40px;
+}
+
+.prices .prices-table-wrapper {
+  border: 1px solid #d9d9d9;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.prices .prices-table {
+  background-image: url('../images/prices-table-bg.png');
+  background-repeat: no-repeat;
+}
+
+.prices .prices-table .prices-row .prices-cell {
+  text-align: center;
+  line-height: 96px;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 14px;
+  color: #cbcbcb;
+}
+
+.prices .prices-table .prices-row .prices-cell:first-child {
+  /* outline: 1px solid red; */
+  background: none;
+}
+
+.prices .prices-domain {
+  text-transform: uppercase;
+}
+
+.prices .prices-duration {
+  text-transform: capitalize;
+}
+
+.prices .prices-value {
+  text-transform: uppercase;
+}
+
+.prices .prices-transfer {
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
