@@ -1,12 +1,17 @@
 .body-wrapper {
   /* background-color: red; */
   width: 100%;
-  min-width: 1300px;
+  /* min-width: 1220px; */
+  min-width: 76.25rem;
+  /* max-width: 1600px; */
+  max-width: 100rem;
+  margin: 0 auto;
 }
 
 .content-wrapper {
   /* background-color: violet; */
-  width: 1200px;
+  /* width: 1200px; */
+  width: 75rem;
   margin: 0 auto;
 }
 
