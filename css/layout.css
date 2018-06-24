@@ -2,7 +2,6 @@
   /* background-color: red; */
   width: 100%;
   min-width: 1300px;
-  padding-bottom: 500px;
 }
 
 .content-wrapper {
@@ -261,4 +260,50 @@
   width: 225px;
 }
 
+.main-footer {
+  width: 100%;
+}
 
+.main-footer .footer-top .footer-top-left {
+  float: left;
+  width: auto;
+}
+
+.footer-top .footer-logo-wrapper {
+  width: 133px;
+}
+
+.footer-top .footer-logo-wrapper .footer-logo {
+  width: 100%;
+  display: block;
+}
+
+.main-footer .footer-top .footer-top-right {
+  float: right;
+  width: auto;
+}
+
+.footer-top-right .footer-navbar-menu .navbar-item {
+  float: left;
+  width: auto;
+}
+
+.main-footer .footer-bottom .area-1 {
+  float: left;
+  width: 377px;
+}
+
+.main-footer .footer-bottom .area-2 {
+  float: left;
+  width: 505px;
+}
+
+.main-footer .footer-bottom .area-2 .links-list {
+  float: left;
+  width: auto;
+}
+
+.main-footer .footer-bottom .area-3 {
+  float: left;
+  width: 318px;
+}

@@ -60,7 +60,7 @@
 }
 
 .navbar .navbar-menu .navbar-item a:hover {
-  border-bottom: 1px solid #5f5f5f;
+  border-bottom: 1px solid #c0c0c0;
 }
 
 .hero-wrapper {
@@ -130,17 +130,18 @@
 
 .domain .content {
   /* Montserrat ultralight 16px #a2a2a2 */
-  line-height: 40px;
+  padding-top: 9px;
+  line-height: 25px;
   text-align: center;
-  /* font-family: 'Montserrat', sans-serif; */
-  font-family: "myriad-pro", sans-serif;
-  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-weight: 300;
   font-size: 16px;
   color: #a2a2a2;
 }
 
 .domain .search {
-  padding-top: 39px;
+  padding-top: 45px;
 }
 
 .domain .search-form-group {
@@ -307,7 +308,6 @@
   vertical-align: super;
 }
 
-
 .footer-price .price {
   /* lato bold, 27.72px */
   /* background-color: blue; */
@@ -322,7 +322,6 @@
   font-weight: 400;
   font-size: 0.8125rem;
 }
-
 
 .package .footer-select {
   /* lato bold, 15.97px */
@@ -413,18 +412,15 @@
   color: #303030;
 }
 
-
 .about-us .content-left .title .text-about {
   /* lato black, 35.11px #303030 */
   font-weight: 900;
 }
 
-
 .about-us .content-left .title .text-us {
   /* lato semibold, 35.11px #303030 */
   font-weight: 600;
 }
-
 
 .about-us .content-left .content-text {
   /* lato thin 18.06px #747474 */
@@ -586,7 +582,146 @@
   line-height: 22px;
 }
 
+.main-footer {
+  padding-top: 94px;
+}
 
+.main-footer .footer-container {
+  background-color: #2a2a2a;
+  color: #686868;
+}
 
+.main-footer .footer-top {
+  border-bottom: 1px solid #4a4a4a;
+}
 
+.footer-top .footer-top-left .footer-logo-wrapper {
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
 
+.main-footer .footer-top .footer-top-right {
+  /* lato medium 13px #686868 */
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 75px;
+}
+
+.footer-top-right .footer-navbar-menu .navbar-item {
+  margin-left: 45px;
+}
+
+.footer-top-right .footer-navbar-menu .navbar-item:first-child {
+  margin-left: 0;
+}
+
+.footer-top-right .footer-navbar-menu .navbar-item a {
+  display: block;
+}
+
+.footer-top-right .footer-navbar-menu .navbar-item.active {
+  color: #ffffff;
+}
+
+.footer-top-right .footer-navbar-menu .navbar-item a:hover {
+  color: #c0c0c0;
+}
+
+.main-footer .footer-bottom {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.footer-bottom .area-1,
+.footer-bottom .area-2,
+.footer-bottom .area-3 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.footer-bottom .area-1 {
+  padding-right: 84px;
+}
+
+.main-footer .footer-bottom .area-1 .designer-msg {
+  /* lato light 15px #686868 */
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.main-footer .footer-bottom .area-1 .designer-wrapper {
+  /* lato light 15px #686868 */
+  padding-top: 16px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.main-footer .footer-bottom .area-1 .designer-wrapper .designer {
+  /* lato bold 15px #686868 */
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.main-footer .footer-bottom .area-2 {
+  /* lato light 15px #686868 */
+  border-left: 1px solid #393939;
+  border-right: 1px solid #393939;
+  padding-left: 108px;
+  padding-right: 100px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.footer-bottom .area-2 .links-list a {
+  display: block;
+}
+
+.footer-bottom .area-2 .links-list a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom .area-2 .links-list.list-1 {
+  margin-right: 69px;
+}
+
+.footer-bottom .area-2 .links-list i {
+  font-size: 14px;
+  margin-right: 3px;
+}
+
+.main-footer .footer-bottom .area-3 {
+  padding-left: 83px;
+}
+
+.main-footer .footer-bottom .area-3 i {
+  /* fontawesome regular 13.41px */
+  font-size: 0.838125rem;
+  margin-right: 2px;
+}
+
+.main-footer .footer-bottom .area-3 .phone-wrapper {
+  /* lato semibold 14.06px */
+  font-size: 0.87875rem;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.main-footer .footer-bottom .area-3 .email-wrapper {
+  /* lato light 15.06px */
+  font-size: 0.94125rem;
+  font-weight: 300;
+  line-height: 27px;
+  padding-top: 5px;
+}
+
+.main-footer .footer-bottom .area-3 .address-wrapper {
+  /* lato light 15.04px */
+  font-size: 0.94rem;
+  font-weight: 300;
+  line-height: 27px;
+  padding-top: 0px;
+}
