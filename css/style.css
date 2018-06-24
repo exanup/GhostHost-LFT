@@ -19,6 +19,7 @@
   float: left;
   width: 133px;
   padding-top: 32px;
+  margin-left: 4px;
 }
 
 .logo-img-wrapper .logo-img {
@@ -67,7 +68,7 @@
 
 .hero {
   /* background-color: aqua; */
-  padding-top: 325px;
+  padding-top: 329px;
   color: #ffffff;
   text-align: center;
 }
@@ -86,7 +87,7 @@
   font-size: 2rem;
   font-style: italic;
   line-height: 2.9375rem;
-  padding-top: 6px;
+  padding-top: 3px;
 }
 
 .members {
