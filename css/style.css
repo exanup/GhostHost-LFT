@@ -1,6 +1,7 @@
 .body-wrapper {
   background-color: #ffffff;
   color: #383737;
+  font-family: 'Lato', sans-serif;
 }
 
 .body-wrapper a {
@@ -34,14 +35,15 @@
 }
 
 .navbar .navbar-menu .navbar-item {
+  /* lato medium 15.96px #ffffff */
   /* outline: 1px solid red; */
   /* background-color: yellow; */
   float: left;
   padding-left: 70px;
-  font-family: "Lato Medium";
   font-size: 0.9975rem;
+  font-weight: 400;
   /* should have been 88 (+2 border bottoms)
-   but became 89 to push the border to overlap the parent */
+   but became 89 to push the border to overlap the parent's border */
   line-height: 89px;
   overflow: visible;
 }
@@ -68,33 +70,35 @@
 
 .hero {
   /* background-color: aqua; */
-  padding-top: 329px;
+  padding-top: 322px;
   color: #ffffff;
   text-align: center;
 }
 
 .hero .title {
+  /* Myriad Pro Bold 72px #ffffff */
   /* background-color: red; */
-  font-family: "Myriad Pro";
+  font-family: "myriad-pro", sans-serif;
   font-size: 4.5rem;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
 .hero .content {
+  /* Georgia Italic 32px #ffffff */
   /* background-color: lime; */
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 2rem;
   font-style: italic;
   line-height: 2.9375rem;
-  padding-top: 3px;
+  padding-top: 4px;
 }
 
 .members {
+  /* lato bold 22px #ffffff */
   color: #ffffff;
-  font-family: "Lato";
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   line-height: 120px;
   text-align: center;
@@ -113,26 +117,25 @@
 
 .members a {
   display: block;
-  color: #ffffff;
-  text-decoration: none;
 }
 
 .domain .title {
+  /* Lato Heavy 24px #383737 */
   padding-top: 75px;
   line-height: 50px;
   text-align: center;
-  font-family: "Lato";
   font-weight: 900;
   font-size: 24px;
 }
 
 .domain .content {
+  /* Montserrat ultralight 16px #a2a2a2 */
   line-height: 40px;
   text-align: center;
-  font-family: "Myriad Pro";
-  font-weight: 400;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "myriad-pro-n7", "myriad-pro", sans-serif;
+  font-weight: 200;
   font-size: 16px;
-  letter-spacing: 1px;
   color: #a2a2a2;
 }
 
@@ -146,8 +149,9 @@
 }
 
 .domain .search-form-group .search-before-text {
-  font-family: "Lato";
+  /* lato regular 16px #cbcbcb */
   font-size: 16px;
+  font-weight: 400;
   text-align: center;
   color: #cbcbcb;
 }
@@ -159,30 +163,31 @@
 }
 
 .domain .search-form-group .search-input-wrapper .search-input {
+  /* Lato Semibold 15px #868686 */
   /* outline: 1px solid red; */
   background: none;
-  color: #868686;
-  font-family: "Lato";
-  font-weight: 700;
   display: block;
   width: 100%;
   /* Height needed for IE */
   height: 48px;
   line-height: 48px;
   padding-left: 16px;
-  padding-right: 16px;
   border: none;
+  padding-right: 16px;
+  color: #868686;
+  font-weight: 600;
 }
 
 .domain .search-form-group .search-after-text {
-  font-family: "Lato";
+  /* lato regular 16px #cbcbcb */
   font-size: 16px;
+  font-weight: 400;
   text-align: right;
   color: #cbcbcb;
 }
 
 .domain .search-form-group .search-after-text-dropdown {
-  font-family: "Font Awesome 5 Free";
+  /* Font Awesome regular #cbcbcb  */
   font-size: 14px;
   text-align: center;
   color: #cbcbcb;
@@ -204,11 +209,11 @@
 }
 
 .prices .prices-table .prices-row .prices-cell {
+  /* lato regular 14px #cbcbcb */
   text-align: center;
   line-height: 96px;
-  font-family: "Lato";
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 400;
   color: #cbcbcb;
 }
 
@@ -252,12 +257,12 @@
 }
 
 .package .header-text {
+  /* lato bold 16px #282828 */
   line-height: 52px;
-  text-transform: uppercase;
-  font-family: "Lato";
-  font-weight: 800;
-  font-size: 16px;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
   color: #282828;
 }
 
@@ -269,17 +274,16 @@
   padding-bottom: 7px;
 }
 
-/* lato light, 16px */
 .package .main-specs .main-specs-table {
-  font-family: "Lato";
+  /* lato light 16px #b4b4b4*/
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 300;
   color: #b4b4b4;
   line-height: 38px;
 }
 
-/* lato semibold,16px */
 .package .main-specs .main-specs-table .specs-value {
+  /* lato semibold 16px */
   font-weight: 600;
   text-align: right;
 }
@@ -293,41 +297,42 @@
   /* background-color: red; */
   text-align: center;
   line-height: 31px;
-  font-family: "Lato";
 }
 
-/* lato heavy, 16.83px */
 .footer-price .dollar {
+  /* lato heavy 16.83px */
   /* background-color: green; */
-  font-weight: 800;
+  font-weight: 900;
   font-size: 1.051875rem;
   vertical-align: super;
 }
 
-/* lato bold, 27.72px */
+
 .footer-price .price {
+  /* lato bold, 27.72px */
   /* background-color: blue; */
   font-weight: 700;
   font-size: 1.7325rem;
 }
 
 /* lato regular, 13px */
+
 .footer-price .per-mo {
   /* background-color: yellow; */
   font-weight: 400;
   font-size: 0.8125rem;
 }
 
-/* lato bold, 15.97px */
+
 .package .footer-select {
+  /* lato bold, 15.97px */
   /* background-color: lightgreen; */
-  font-family: "Lato";
-  font-size: 0.998125rem;
-  font-weight: 800;
-  text-align: center;
-  text-transform: uppercase;
   line-height: 50px;
   padding-bottom: 17px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.998125rem;
+  font-weight: 700;
 }
 
 .package.basic {
@@ -384,11 +389,103 @@
   border-bottom: 3px solid #1abc9c;
 }
 
+.about-us .content-wrapper {
+  padding-top: 99px;
+}
+
+.about-us .about-us-wrapper {
+  background-image: url('../images/about-us-top-bar.png');
+  background-repeat: no-repeat;
+  padding-top: 80px;
+}
+
+.about-us .content-left {
+  background-image: url('../images/about-us-right-bar.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-right: 99px;
+}
+
+.about-us .content-left .title {
+  /* lato 35.11 #303030 */
+  line-height: 83px;
+  font-size: 2.194375rem;
+  color: #303030;
+}
 
 
+.about-us .content-left .title .text-about {
+  /* lato black, 35.11px #303030 */
+  font-weight: 900;
+}
 
 
+.about-us .content-left .title .text-us {
+  /* lato semibold, 35.11px #303030 */
+  font-weight: 600;
+}
 
 
+.about-us .content-left .content-text {
+  /* lato thin 18.06px #747474 */
+  font-size: 1.12875rem;
+  font-weight: 100;
+  color: #747474;
+  text-align: justify;
+  line-height: 27px;
+}
 
+.about-us .people-wrapper {
+  padding-top: 29px;
+}
 
+.about-us .people.jonny {
+  margin-left: 79px;
+}
+
+.about-us .people.john {
+  margin-left: 84px;
+}
+
+.about-us .people.johnathan {
+  margin-left: 84px;
+}
+
+.about-us .people .img-container .img-wrapper {
+  border-radius: 50%;
+  border: 5px solid #e5e5e5;
+  overflow: hidden;
+}
+
+.about-us .people .name-container {
+  /* lato semibold 17px #303030 */
+  font-size: 17px;
+  font-weight: 600;
+  color: #303030;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.about-us .people .job-title-container {
+  /* lato regular 15px #8e8e8e */
+  font-size: 15px;
+  font-weight: 400;
+  color: #8e8e8e;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.about-us .people .social {
+  /* font awesome regular 14px #bfbfbf */
+  /* background-color: magenta; */
+  font-size: 14px;
+  font-weight: 400;
+  color: #bfbfbf;
+  text-align: center;
+  /* letter-spacing: 10px; */
+  padding-top: 10px;
+}
+
+.about-us .people .social i:hover {
+  color: #1f89ba;
+}

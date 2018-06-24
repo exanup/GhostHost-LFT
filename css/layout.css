@@ -200,4 +200,44 @@
   display: inline;
 }
 
+.about-us {
+  width: 100%;
+}
+
+.about-us-wrapper {
+  /* background-color: lightgoldenrodyellow; */
+  width: 100%;
+}
+
+.about-us .content-left {
+  /* background-color: lime; */
+  float: left;
+  width: 521px;
+}
+
+.about-us .content-right {
+  /* background-color: lightgreen; */
+  float: left;
+  width: 679px;
+}
+
+.about-us .people {
+  /* background-color: mediumaquamarine; */
+  float: left;
+  width: 144px;
+}
+
+.about-us .people .img-container {
+  width: 100%;
+}
+
+.about-us .people .img-container .img-wrapper {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.about-us .people .img-container .img-profile {
+  width: 100%;
+  display: block;
+}
 
