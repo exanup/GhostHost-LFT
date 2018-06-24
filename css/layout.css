@@ -5,16 +5,21 @@
   padding-bottom: 500px;
 }
 
-.main-header {
-  /* background-color: brown; */
-  width: 100%;
-  /* height: 944px; */
-}
-
 .content-wrapper {
   /* background-color: violet; */
   width: 1200px;
   margin: 0 auto;
+}
+
+.content-wrapper-deeper {
+  width: 889px;
+  margin: 0 auto;
+}
+
+.main-header {
+  /* background-color: brown; */
+  width: 100%;
+  /* height: 944px; */
 }
 
 .navbar {
@@ -79,15 +84,10 @@
   width: 100%;
 }
 
-.domain-wrapper {
-  width: 889px;
-  margin: 0 auto;
-}
-
-.domain .domain-wrapper .title,
-.domain .domain-wrapper .content,
-.domain .domain-wrapper .search,
-.domain .domain-wrapper .prices {
+.domain .content-wrapper-deeper .title,
+.domain .content-wrapper-deeper .content,
+.domain .content-wrapper-deeper .search,
+.domain .content-wrapper-deeper .prices {
   /* outline: 1px solid red; */
   /* background-color: violet; */
   width: 100%;
@@ -241,3 +241,12 @@
   display: block;
 }
 
+.comments {
+  width: 100%;
+  padding-top: 103px;
+}
+
+.comments .comment-bottom {
+  /* background-color: lightpink; */
+  width: 100%;
+}

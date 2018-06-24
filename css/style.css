@@ -403,7 +403,7 @@
   background-image: url('../images/about-us-right-bar.png');
   background-repeat: no-repeat;
   background-position: right bottom;
-  padding-right: 99px;
+  padding-right: 95px;
 }
 
 .about-us .content-left .title {
@@ -429,7 +429,7 @@
 .about-us .content-left .content-text {
   /* lato thin 18.06px #747474 */
   font-size: 1.12875rem;
-  font-weight: 100;
+  font-weight: 300;
   color: #747474;
   text-align: justify;
   line-height: 27px;
@@ -488,4 +488,44 @@
 
 .about-us .people .social i:hover {
   color: #1f89ba;
+}
+
+.comments .comments-container {
+  background-color: rgb(88, 88, 88);
+  background-image: url('../images/comments-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  color: #ffffff;
+  height: 190px;
+  text-align: center;
+  padding-top: 46px;
+}
+
+.comments .comment-top {
+  /* lato light 20px #ffffff */
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.comments .comment-bottom {
+  line-height: 48px;
+}
+
+.comments .comment-bottom .comment-author {
+  /* lato bold 20px #ffffff */
+  /* background-color: violet; */
+  font-weight: 700;
+  font-size: 20px;
+  vertical-align: sub;
+}
+
+.comments .comment-bottom .controls {
+  /* background-color: orange; */
+  display: inline-block;
+  letter-spacing: 9px;
+}
+
+.comments .comment-bottom .controls img {
+  vertical-align: middle;
 }
