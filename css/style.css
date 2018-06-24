@@ -529,3 +529,64 @@
 .comments .comment-bottom .controls img {
   vertical-align: middle;
 }
+
+.functions .content-wrapper {
+  padding-top: 99px;
+  text-align: center;
+}
+
+.function .header-img-wrapper {
+  /* font awesome regular 28px #ffffff */
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.function.cloud-servers,
+.function.domain-transfer,
+.function.live-support {
+  margin-left: 100px;
+}
+
+.function.fast-servers .header-img-wrapper {
+  background-color: #f1c40f;
+}
+
+.function.cloud-servers .header-img-wrapper {
+  background-color: #0faff1;
+}
+
+.function.domain-transfer .header-img-wrapper {
+  background-color: #95a5a6;
+}
+
+.function.live-support .header-img-wrapper {
+  background-color: #f1540f;
+}
+
+.function .header-text {
+  /* lato heavy 18px #303030 */
+  padding-top: 18px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #303030;
+}
+
+.function .content-text {
+  /* lato light 16.02 #7e7e7e */
+  padding-top: 5px;
+  font-size: 1.00125rem;
+  font-weight: 300;
+  color: #7e7e7e;
+  line-height: 22px;
+}
+
+
+
+
+

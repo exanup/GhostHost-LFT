@@ -250,3 +250,15 @@
   /* background-color: lightpink; */
   width: 100%;
 }
+
+.functions {
+  width: 100%;
+}
+
+.functions .function {
+  /* outline: 1px solid maroon; */
+  float: left;
+  width: 225px;
+}
+
+
